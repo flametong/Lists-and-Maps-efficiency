@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/default_padding">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            style="@style/MyTextViewStyle"
+            android:text="@string/operation"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/MyTextViewStyle"
+            android:text="@string/array"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/MyTextViewStyle"
+            android:text="@string/linked"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/MyTextViewStyle"
+            android:layout_weight="1.1"
+            android:text="@string/copy_on_write"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="0dp"
+        android:paddingTop="@dimen/default_padding">
+
+        <TextView
+            style="@style/MyTextViewStyle"
+            android:text="@string/adding_in_the_beginning" />
+
+        <TextView
+            android:id="@+id/tvArr1"
+            style="@style/MyTextViewStyle" />
+
+        <TextView
+            android:id="@+id/tvLinked1"
+            style="@style/MyTextViewStyle" />
+
+        <TextView
+            android:id="@+id/tvCOWArr1"
+            style="@style/MyTextViewStyle"
+            android:layout_weight="1.1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="0dp"
+        android:paddingTop="@dimen/default_padding">
+
+        <TextView
+            style="@style/MyTextViewStyle"
+            android:text="@string/adding_in_the_middle" />
+
+        <TextView
+            android:id="@+id/tvArr2"
+            style="@style/MyTextViewStyle" />
+
+        <TextView
+            android:id="@+id/tvLinked2"
+            style="@style/MyTextViewStyle" />
+
+        <TextView
+            android:id="@+id/tvCOWArr2"
+            style="@style/MyTextViewStyle"
+            android:layout_weight="1.1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="0dp"
+        android:paddingTop="@dimen/default_padding">
+
+        <TextView
+            style="@style/MyTextViewStyle"
+            android:text="@string/adding_in_the_end" />
+
+        <TextView
+            android:id="@+id/tvArr3"
+            style="@style/MyTextViewStyle" />
+
+        <TextView
+            android:id="@+id/tvLinked3"
+            style="@style/MyTextViewStyle" />
+
+        <TextView
+            android:id="@+id/tvCOWArr3"
+            style="@style/MyTextViewStyle"
+            android:layout_weight="1.1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="0dp"
+        android:paddingTop="@dimen/default_padding">
+
+        <TextView
+            style="@style/MyTextViewStyle"
+            android:text="@string/search_by_value" />
+
+        <TextView
+            android:id="@+id/tvArr4"
+            style="@style/MyTextViewStyle" />
+
+        <TextView
+            android:id="@+id/tvLinked4"
+            style="@style/MyTextViewStyle" />
+
+        <TextView
+            android:id="@+id/tvCOWArr4"
+            style="@style/MyTextViewStyle"
+            android:layout_weight="1.1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="0dp"
+        android:paddingTop="@dimen/default_padding">
+
+        <TextView
+            style="@style/MyTextViewStyle"
+            android:text="@string/removing_in_the_beginning" />
+
+        <TextView
+            android:id="@+id/tvArr5"
+            style="@style/MyTextViewStyle" />
+
+        <TextView
+            android:id="@+id/tvLinked5"
+            style="@style/MyTextViewStyle" />
+
+        <TextView
+            android:id="@+id/tvCOWArr5"
+            style="@style/MyTextViewStyle"
+            android:layout_weight="1.1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="0dp"
+        android:paddingTop="@dimen/default_padding">
+
+        <TextView
+            style="@style/MyTextViewStyle"
+            android:text="@string/removing_in_the_middle" />
+
+        <TextView
+            android:id="@+id/tvArr6"
+            style="@style/MyTextViewStyle" />
+
+        <TextView
+            android:id="@+id/tvLinked6"
+            style="@style/MyTextViewStyle" />
+
+        <TextView
+            android:id="@+id/tvCOWArr6"
+            style="@style/MyTextViewStyle"
+            android:layout_weight="1.1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="0dp"
+        android:paddingTop="@dimen/default_padding">
+
+        <TextView
+            style="@style/MyTextViewStyle"
+            android:text="@string/removing_in_the_end" />
+
+        <TextView
+            android:id="@+id/tvArr7"
+            style="@style/MyTextViewStyle" />
+
+        <TextView
+            android:id="@+id/tvLinked7"
+            style="@style/MyTextViewStyle" />
+
+        <TextView
+            android:id="@+id/tvCOWArr7"
+            style="@style/MyTextViewStyle"
+            android:layout_weight="1.1" />
+    </TableRow>
+
+</TableLayout>

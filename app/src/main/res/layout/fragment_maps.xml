@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/default_padding"
+    android:stretchColumns="4">
+
+    <TableRow android:paddingBottom="@dimen/default_padding">
+
+        <TextView
+            style="@style/MyTextViewStyle"
+            android:text="@string/operation"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/MyTextViewStyle"
+            android:text="@string/tree_map"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/MyTextViewStyle"
+            android:text="@string/hash_map"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow android:paddingBottom="@dimen/default_padding">
+
+        <TextView
+            style="@style/MyTextViewStyle"
+            android:text="@string/adding_new" />
+
+        <TextView
+            android:id="@+id/tvTreeMap1"
+            style="@style/MyTextViewStyle" />
+
+        <TextView
+            android:id="@+id/tvHashMap1"
+            style="@style/MyTextViewStyle" />
+
+    </TableRow>
+
+    <TableRow android:paddingBottom="@dimen/default_padding">
+
+        <TextView
+            style="@style/MyTextViewStyle"
+            android:text="@string/search_by_key" />
+
+        <TextView
+            android:id="@+id/tvTreeMap2"
+            style="@style/MyTextViewStyle" />
+
+        <TextView
+            android:id="@+id/tvHashMap2"
+            style="@style/MyTextViewStyle" />
+
+    </TableRow>
+
+    <TableRow android:paddingBottom="@dimen/default_padding">
+
+        <TextView
+            style="@style/MyTextViewStyle"
+            android:text="@string/removing" />
+
+        <TextView
+            android:id="@+id/tvTreeMap3"
+            style="@style/MyTextViewStyle" />
+
+        <TextView
+            android:id="@+id/tvHashMap3"
+            style="@style/MyTextViewStyle" />
+    </TableRow>
+
+</TableLayout>
