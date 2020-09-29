@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Lists and Maps efficiency</string>
-    <string name="collections">Collections</string>
+    <string name="lists">Lists</string>
     <string name="maps">Maps</string>
     <string name="operation">Operation</string>
     <string name="array">Array</string>
@@ -24,4 +24,5 @@
     <string name="one_million">1000000</string>
     <string name="enter_any_number">Enter any number!</string>
     <string name="wait_counting_in_progress">Please wait, counting in progress</string>
+    <string name="loading_failed">Loading failed</string>
 </resources>
